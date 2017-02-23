@@ -1,0 +1,52 @@
+snippet exp
+	expect(${1}).to.
+snippet expn
+	expect(${1}).not.to.
+snippet expnf
+	expect(function () {
+		${1}
+	}).not.to.
+snippet expf
+	expect(function () {
+		${1}
+	}).to.
+snippet expf
+	expect(function () {
+		${1}
+	}).to
+snippet it
+	it('${1}', function () {
+		${2}
+	});
+snippet itd
+	it('${1}', function (done) {
+		${2}
+	});
+snippet desc
+	describe('${1}', function () {
+		${2}
+	});
+snippet descm
+	describe('#${1}', function () {
+		${2}
+	});
+snippet cont
+	context('${1}', function () {
+		${2}
+	});
+snippet bef
+	beforeEach(function () {
+		${1}
+	});
+snippet befa
+	before(function () {
+		${1}
+	});
+snippet aft
+	afterEach(function () {
+		${1}
+	});
+snippet afta
+	after(function () {
+		${1}
+	});
